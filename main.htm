@@ -1,0 +1,150 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <!--Necessary for Bootstrap. Must come fist in head-->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Used for zooming and accurate view using handheld device-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Title</title>
+
+    <!-- Bootstrap -->  
+    <link href="css/css_bootstrap/bootstrap.min.css" rel="stylesheet">
+    <!--Personal CSS-->
+    <link href="css/my_css/custom.css" rel="stylesheet">
+
+    <style>
+        #hero{
+            
+            border: 1px black solid;
+            width: 50%;
+        }
+
+        #stats{
+
+            border: 1px black solid;
+            width: 50%;
+        }
+
+        
+
+        table{
+            margin-top: 5px;
+        }
+        table tr td{
+            width: 100px;
+            height: 100px;
+            border: 1px black solid;
+            z-index: 0;
+        }
+
+        #player img{
+            width: 40px;
+            height: 40px;
+        }
+
+        .game_map{
+            position: relative;
+            border: 3px solid black;
+            background-color: green;
+            height: 500px;
+        }
+
+        #game_map1{
+            position: absolute;
+            left: 10%;
+            top: 10%;
+        }
+
+        #game_map2{
+            position: absolute;
+            left: 30%;
+            top: 50%;
+        }
+
+        #game_map3{
+            position: absolute;
+            left: 60%;
+            top: 70%;
+        }
+
+        #game_map4{
+            position: absolute;
+            left: 10%;
+            top: 90%;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <div id="hero">
+        <div id="write1"></div>
+        <div id="write2"></div>
+        <div id="write3"></div>
+        <div id="write4"></div>
+        <div id="write5"></div>
+        <div id="write6"></div>
+        <div id="write7"></div>
+    </div>
+    <div id="stats">
+        <div id="ewrite1"></div>
+        <div id="ewrite2"></div>
+        <div id="ewrite3"></div>
+        <div id="ewrite4"></div>
+        <div id="ewrite5"></div>
+    </div>
+
+    <div id="enemy"></div>
+    <div id="buttons">
+        <button type="button" class="btn btn-primary" id="fight">Fight</button>
+        <button type="button" class="btn btn-warning" id="flee">Flee</button>
+        <button type="button" class="btn btn-default" id="att">Add attack</button>
+        <button type="button" class="btn btn-default" id="def">Add Defense</button>
+        <button type="button" class="btn btn-warning" id="heal">Add Health</button>
+        <button type="button" class="btn btn-default" id="repeat">Repeat Attack</button>
+        <button type="button" class="btn btn-primary" id="stopRepeat">Cancel Attack</button>
+        <button type="button" class="btn btn-default" id="potion">Potion</button>
+    </div>
+    <div class="game_map">
+        <div id="game_map1">
+            <div id="player">
+                <img src="img/cool_geek_full.jpg" id="hero">
+            </div>
+        </div>
+        <div id="game_map2">
+        </div>   
+        <div id="game_map3">
+        </div> 
+        <div id="game_map4">
+        </div>
+        <div id="game_map5">
+        </div>
+    </div>
+
+
+    <script>
+
+    
+
+  
+
+
+       
+    </script>
+
+    <!-- jQuery Offline -->
+    <script src="javascript/jQuery/jQuery.js"></script>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!--Custom Javascript/jQuery-->
+    <script src="javascript/my_js/js_custom.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="javascript/js_bootstrap/bootstrap.min.js"></script>
+    <script src="javascript/my_js/click_game.js"></script>
+    
+</body>
+<html>
